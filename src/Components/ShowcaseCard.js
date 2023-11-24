@@ -1,13 +1,15 @@
 import React from 'react'
 import '../Styles/ShowcaseCard.css'
-const ShowcaseCard = ({data}) => {
+import { Link } from 'react-router-dom'
+
+const ShowcaseCard = ({ data }) => {
   return (
     <>
-     <div className='container'>
+      <div className='container'>
         <img src={data.image} alt={data.categories_name} />
         <h4>{data.categories_name}</h4>
-        <button>SHOP NOW</button>
-     </div>
+        <Link to ={data.link}><button>SHOP NOW</button></Link>
+      </div>
     </>
   )
 }

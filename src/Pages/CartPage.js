@@ -8,7 +8,7 @@ const CartPage = () => {
   const totalPrice = cart.reduce((acc, item) => acc + item.price, 0).toFixed(2);
 
   return (
-    <div>
+    <div className='cart-main-container'>
       <h2>Your Shopping Cart</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty.</p>

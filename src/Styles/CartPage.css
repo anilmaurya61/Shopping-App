@@ -1,15 +1,10 @@
-div {
-  margin: 1.5rem;
+.cart-main-container{
+  margin: 2rem 5rem;
 }
-
-h2 {
-  font-size: 1.5rem;
-}
-
 .cart-container {
   list-style: none;
   padding: 0;
-  margin: 1rem;
+  margin: 1rem 0rem;
 }
 
 .cart-item {
@@ -21,7 +16,7 @@ h2 {
   padding: 0.625rem;
 }
 
-img {
+.cart-item img {
   margin-right: 0.625rem;
   max-width: 100px;
 }
