@@ -1,5 +1,5 @@
 .cart-main-container{
-  margin: 2rem 5rem;
+  margin: 2rem 10rem;
 }
 .cart-container {
   list-style: none;
@@ -9,19 +9,23 @@
 
 .cart-item {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: left;
+  align-items: left;
+  justify-content: space-between;
+  column-gap: 4rem;
   margin-bottom: 1.25rem;
   padding: 0.625rem;
 }
-
+.title-container{
+  width: 20rem;
+  text-align: left;
+}
 .cart-item img {
   margin-right: 0.625rem;
   max-width: 100px;
 }
 
 .remove-btn {
+  height: 2rem;
   background-color: #dc3545;
   color: #fff;
   border: none;

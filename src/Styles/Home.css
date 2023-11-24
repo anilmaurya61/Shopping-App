@@ -1,9 +1,11 @@
 .home-container{
-    width: 80%;
     margin: 0 auto;
 }
 .home-sub-container{
     display: flex;
     flex: 50% 50%;
     height: 35rem;
+}
+.home-sub-container img{
+    width: 200%;
 }
