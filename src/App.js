@@ -8,18 +8,23 @@ import mensOuterwearData from './data/mensOuterWeardata.json';
 import mensTshirtdata from './data/mensTshirtdata.json';
 import ladiesOuterwearData from './data/ladiesOuterWeardata.json';
 import ladiesTshirtData from './data/ladiesTshirtdata.json';
+import CartPage from './Pages/CartPage';
+import { CartProvider } from './services/cartContext';
 
 function App() {
   return (
     <Router>
+      <CartProvider>
       <Header />
-      <Routes>
-        <Route path="/mens-outerwear" element={<CategoryPage productData={mensOuterwearData} />} />
-        <Route path="/ladies-outerwear" element={<CategoryPage productData={ladiesOuterwearData} />} />
-        <Route path="/mens-t-shirts" element={<CategoryPage productData={mensTshirtdata} />} />
-        <Route path="/ladies-t-shirts" element={<CategoryPage productData={ladiesTshirtData} />} />
-        <Route path="/" element={<Home />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/mens-outerwear" element={<CategoryPage productData={mensOuterwearData} />} />
+          <Route path="/ladies-outerwear" element={<CategoryPage productData={ladiesOuterwearData} />} />
+          <Route path="/mens-t-shirts" element={<CategoryPage productData={mensTshirtdata} />} />
+          <Route path="/ladies-t-shirts" element={<CategoryPage productData={ladiesTshirtData} />} />
+          <Route path="/cart" element={<CartPage />} />
+        </Routes>
+      </CartProvider>
     </Router>
   );
 }

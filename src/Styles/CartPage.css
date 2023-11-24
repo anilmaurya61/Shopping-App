@@ -1,0 +1,42 @@
+div {
+  margin: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.cart-container {
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: left;
+  margin-bottom: 1.25rem;
+  padding: 0.625rem;
+}
+
+img {
+  margin-right: 0.625rem;
+  max-width: 100px;
+}
+
+.remove-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 0.3125rem 0.625rem;
+  cursor: pointer;
+}
+
+.cart-summary{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+}

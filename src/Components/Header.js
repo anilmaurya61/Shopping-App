@@ -9,7 +9,7 @@ const Header = () => {
       <div className='header'>
             <div className='title'>
                 <span>SHOP</span>
-                <img src={Cart} alt="Cart" />
+                <Link to="/cart"><img src={Cart} alt="Cart" /></Link>
             </div>
             <div className='categories'>
                 <Link to="/mens-outerwear">Men's Outerwear</Link>
