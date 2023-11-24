@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import mensOuterwearData from '../data/mensOuterWeardata.json'
 import '../Styles/ProductCard.css'
 const ProductCard = ({productDetails}) => {
 
-  console.log("product", productDetails)
   return (
     <>
       <div className="product_container">

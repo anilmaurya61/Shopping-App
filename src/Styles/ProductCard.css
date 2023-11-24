@@ -1,6 +1,7 @@
 .product_container {
     display: flex;
     width: 19rem;
+    height: 29rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -10,9 +11,9 @@
     background-color: white;
 }
 
-.product_container:hover {
+/* .product_container:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
-}
+} */
 
 .product_container img {
     width: 100%;
