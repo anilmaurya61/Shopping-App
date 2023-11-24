@@ -1,0 +1,29 @@
+.product_container {
+    display: flex;
+    width: 19rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.product_container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+}
+
+.product_container img {
+    width: 100%;
+    height: auto;
+}
+
+.product_container h3 {
+    font-size: 1.3rem;
+}
+
+.product_container span {
+    color: grey;
+    font-size: 1rem;
+}

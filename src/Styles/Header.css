@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: 10rem;
+    box-shadow: 10px 10px 20px grey;
+}
+
+.title {
+    text-align: center;
+    height: 50%;
+    padding: 1rem 1rem 0.5rem 0.5rem;
+}
+
+.title span{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.title img {
+    float: right;
+    height: auto;
+    width: 50px;
+}
+
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    color: #333; 
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }

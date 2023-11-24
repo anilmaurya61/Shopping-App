@@ -1,0 +1,18 @@
+[
+    {
+        "image": "https://shop.polymer-project.org/esm-bundled/images/mens_outerwear.jpg",
+        "categories_name": "Men's Outerwear"
+    },
+    {
+        "image": "https://shop.polymer-project.org/esm-bundled/images/ladies_outerwear.jpg",
+        "categories_name":"Ladies Outerwear"
+    },
+    {
+        "image": "https://shop.polymer-project.org/esm-bundled/images/mens_tshirts.jpg",
+        "categories_name":"Men's T-Shirts"
+    },
+    {
+        "image": "https://shop.polymer-project.org/esm-bundled/images/ladies_tshirts.jpg",
+        "categories_name":"Ladies T-Shirts"
+    }
+]
